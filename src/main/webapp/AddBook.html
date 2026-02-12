@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Book</title>
+</head>
+<body>
+
+<h2>Add Book</h2>
+
+<form method="post" action="addBook">
+
+
+ISBN:
+<input type="text" name="isbn" required>
+<br><br>
+
+Book Name:
+<input type="text" name="bookName" required>
+<br><br>
+
+Book Type:
+<select name="bookType">
+    <option value="T">Text</option>
+    <option value="G">General</option>
+</select>
+
+
+Author:
+<select name="author">
+    <option value="James Bond">James Bond</option>
+    <option value="Jackie Chan">Jackie Chan</option>
+    <option value="John Cena">John Cena</option>
+</select>
+<br><br>
+
+Cost:
+<input type="number" step="0.01" name="cost" required>
+<br><br>
+
+<input type="submit" value="Add Book">
+
+</form>
+
+</body>
+</html>
