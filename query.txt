@@ -1,11 +1,7 @@
-==============================
 LIBRARY MANAGEMENT SYSTEM
 DATABASE QUERIES
-==============================
 
-------------------------------
 1. Create Author Table
-------------------------------
 
 CREATE TABLE Author_tbl (
     Author_code NUMBER(5) PRIMARY KEY,
@@ -13,9 +9,7 @@ CREATE TABLE Author_tbl (
     Contact_no NUMBER(10)
 );
 
-------------------------------
 2. Insert Author Records
-------------------------------
 
 INSERT INTO Author_tbl (Author_code, Author_name, Contact_no)
 VALUES (1, 'James Bond', 789456123);
@@ -26,9 +20,7 @@ VALUES (2, 'Jackie Chan', 894561237);
 INSERT INTO Author_tbl (Author_code, Author_name, Contact_no)
 VALUES (3, 'John Cena', 945612378);
 
-------------------------------
 3. Create Book Table
-------------------------------
 
 CREATE TABLE Book_tbl (
     ISBN VARCHAR2(10) PRIMARY KEY,
@@ -41,31 +33,23 @@ CREATE TABLE Book_tbl (
     REFERENCES Author_tbl(Author_code)
 );
 
-------------------------------
 4. Sample Insert Into Book
-------------------------------
 
 INSERT INTO Book_tbl
 (ISBN, Book_title, Book_type, Author_code, Book_cost)
 VALUES
 ('101', 'Java', 'T', 1, 500);
 
-------------------------------
 5. View All Books
-------------------------------
 
 SELECT * FROM Book_tbl;
 
-------------------------------
 6. View Book By ISBN
-------------------------------
 
 SELECT * FROM Book_tbl
 WHERE ISBN = '101';
 
-------------------------------
 7. Join Query (Book + Author)
-------------------------------
 
 SELECT b.ISBN,
        b.Book_title,
