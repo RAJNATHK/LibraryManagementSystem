@@ -35,7 +35,7 @@ Author_code (Foreign Key)
 Book_cost
 
 📷 Screenshots
-Add Book Page
+Add book Page 
 <img width="444" height="353" alt="addbook png" src="https://github.com/user-attachments/assets/285e7dd5-9956-40de-8fc1-d87fc3e288f8" />
 
 
