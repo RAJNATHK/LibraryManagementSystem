@@ -34,15 +34,6 @@ Book_type (T/G)
 Author_code (Foreign Key)
 Book_cost
 
-📷 Screenshots
-Add book Page 
-<img width="444" height="353" alt="addbook png" src="https://github.com/user-attachments/assets/285e7dd5-9956-40de-8fc1-d87fc3e288f8" />
-
-
-View Book Page
-<img width="391" height="446" alt="viewbook png" src="https://github.com/user-attachments/assets/6a964e76-8954-4f59-9129-0aef5393844c" />
-
-
 ▶️ How to Run the Project
 Import project into Eclipse
 Configure Apache Tomcat Server
@@ -68,3 +59,14 @@ LibraryManagementSystem
 │
 ├── query.txt
 └── README.md
+
+
+
+
+Add book Page 
+<img width="444" height="353" alt="addbook png" src="https://github.com/user-attachments/assets/285e7dd5-9956-40de-8fc1-d87fc3e288f8" />
+
+
+View Book Page
+<img width="391" height="446" alt="viewbook png" src="https://github.com/user-attachments/assets/6a964e76-8954-4f59-9129-0aef5393844c" />
+
